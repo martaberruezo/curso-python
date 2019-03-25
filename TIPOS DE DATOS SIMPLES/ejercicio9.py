@@ -5,4 +5,4 @@
 amount = float(input("¿cantidad a invertir?: "))
 interest = float(input("¿interes porcentual anual?: "))
 years = int(input("¿años?: "))
-print("capital final: " + str(round(amount*((interest/100)+1)*years)))     #no olvidarse de () finales
+print("capital final: " + str(round(amount*((interest/100)+1)*years,2)))     #no olvidarse de () finales
