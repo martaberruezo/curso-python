@@ -16,7 +16,7 @@ any(a)
 any([0,1,2])
 any([0,0,0])
 
-a+b
+a+b+a
 c= [1,3]
 c.append(5)
 c.extend([9,7])
