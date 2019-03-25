@@ -3,9 +3,9 @@
 #asignatura y elimine de la lista las asignaturas aprobadas. Al final el programa debe mostrar por 
 #pantalla las asignaturas que el usuario tiene que repetir.
 
-                     #*************************************************
+                     #************************************************* corregido
 
-asignaturas = ["Matemáticas","Física", "Química", "Historia", "Lengua"]        #?????????????????
+asignaturas = ["Matemáticas","Física", "Química", "Historia", "Lengua"]        
 notas =[]
 for i in asignaturas:
     resultado = float(input( "¿Qué nota has sacado en " + i + "?: "))
