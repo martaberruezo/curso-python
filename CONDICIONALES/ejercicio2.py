@@ -6,9 +6,9 @@
 
 
 
-
+x = "pepito"
 contraseña = input("introduce la contraseña: ")
-if contraseña.lower() == "pepito":                       #lower es par mayusculas
+if contraseña.lower() == x:                       #lower es par mayusculas
     print("contraseña correcta")
 else:
     print("contraseña incorrecta")
