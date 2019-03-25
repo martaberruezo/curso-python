@@ -2,7 +2,7 @@
 # usuario por la contraseña e imprima por pantalla si la contraseña introducida por el usuario 
 # coincide con la guardada en la variable sin tener en cuenta mayúsculas y minúsculas.
 
-      #IGUAL QUE EL 10 DE "TIPOS DE DATOS SIMPLES"
+      #PARECIDO AL 10 DE "TIPOS DE DATOS SIMPLES"
 
 
 
