@@ -9,10 +9,11 @@ asignaturas = ["Matemáticas","Física", "Química", "Historia", "Lengua"]      
 notas =[]
 for i in asignaturas:
     resultado = float(input( "¿Qué nota has sacado en " + i + "?: "))
-    if resultado >=5:
-        notas.append(resultado)
-for a in notas:
-    asignaturas.remove(a)
+    notas.append(resultado)
+    
+for a in range(len(notas)-1,0,-1):               #eso es para que no se borre
+    if notas[a]>=5:
+        asignaturas.pop(a)
 print("tienes que repetir " + str(asignaturas))
 
     

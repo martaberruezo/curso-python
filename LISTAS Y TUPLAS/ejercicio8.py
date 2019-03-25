@@ -2,8 +2,12 @@
 
 
 palabra= input("Introduzca una palabra: ")                    #?????????????????????????????
-reversed(palabra) == "palabra al reves"
-if palabra == "palabra al reves":
+palabra = list(palabra)
+print(palabra)
+reversa = palabra
+reversa.reverse()
+print(reversa)
+if palabra == reversa:
     print("es un palíndromo")
 else:
     print("no es un palíndromo")

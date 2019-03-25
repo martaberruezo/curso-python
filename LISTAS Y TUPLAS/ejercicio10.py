@@ -2,6 +2,11 @@
 #y muestre por pantalla el menor y el mayor de los precios.
 
 precios = [50,75,46,22,80,65,8]
+print(min(precios))
+print(max(precios))
+
+
+
 min = max= precios[0]
 for i in precios:
     if i < min:
