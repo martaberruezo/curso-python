@@ -7,7 +7,7 @@ n= int(input("¿Introduzca número entero positivo mayor de 2: "))
 i = 2  
 while n % i != 0:
     i += 1
-if i==n:                          # i==n ????????????????????
+if i==n:                          #hay que pensrlo, este metodo es mas facil
     print(str(n) + " es primo")
 else:
     print(str(n) +" no es primo")
@@ -19,7 +19,7 @@ n= int(input("¿Introduzca número entero positivo mayor de 2: "))
 for i in range(2,n):
     if n % i ==0:
         break
-if(i+1) == n:
+if i == n:
     print(str(n) + " es primo")
 else:
     print(str(n) +" no es primo")

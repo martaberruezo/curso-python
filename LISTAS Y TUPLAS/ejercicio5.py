@@ -3,6 +3,6 @@
 
 numbers = [1,2,3,4,5,6,7,8,9,10]
 numbers.reverse()
-#numbers                          #si pongo solo eso hasta ahi me sale la lista con los numeros al reves
+#print(numbers)                        #si pongo solo eso hasta ahi me sale la lista con los numeros al reves
 for i in numbers:
     print(i, end=",")

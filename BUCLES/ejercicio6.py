@@ -6,9 +6,21 @@
 #****
 #*****
 
-
-n= int(input("Inserte número entero para hacer triangulo: "))
-for i in range (0, n):
+x = int(input("numero:"))
+for i in range(0,x):
     for j in range(i+1):
-        print("*", end=" ")                              #puedes poner número(en vez de * poner j)
+        print("*", end=" ")
     print(" ")
+
+
+
+
+
+
+
+
+#n= int(input("Inserte número entero para hacer triangulo: "))
+#for i in range (0, n):
+   # for j in range(i+1):
+   #     print("*", end=" ")                              #puedes poner número(en vez de * poner j)
+   # print(" ")

@@ -4,4 +4,4 @@
 
 
 usuario = input("introduzca usuario: ")
-print(usuario + " tiene "+ str(len(usuario))+ " letras ")
+print(usuario.upper() + " tiene "+ str(len(usuario))+ " letras ")
