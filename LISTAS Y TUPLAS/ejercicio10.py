@@ -7,7 +7,7 @@ print("el mayor precio es " + str(max(precios)))
 
 
 
-min = max= precios[0]
+min = max= precios[0]            #esta forma no la entiendo
 for i in precios:
     if i < min:
         min=i

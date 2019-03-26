@@ -9,3 +9,5 @@ else:
 
 #cuando pones marta, hay problema porque pilla la m y la a, 
 # entonces te lo mete en grupo B... hay que poner nombre[0]
+
+#ESTA MAALLLL
